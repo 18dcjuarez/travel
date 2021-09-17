@@ -1,16 +1,25 @@
+[![Flutter](https://badgen.net/badge/Flutter/v2.0.5/0e83cd)](https://flutter.dev/docs/development/tools/sdk/releases)
+
 # travel
 
-A new Flutter project.
+A Travel app.
 
-## Getting Started
+## Info ##
 
-This project is a starting point for a Flutter application.
+This project uses:
 
-A few resources to get you started if this is your first Flutter project:
+* [Flutter][1] as mobile development framework
+* [Provider][2] as state manager
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Setup ##
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To install packages:
+
+```
+flutter pub get
+```
+
+To start the application in development mode (load all services locally with hot-reload & REPL):
+```
+flutter run
+```
