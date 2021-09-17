@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel/src/pages/city/cities_page.dart';
 import 'package:travel/src/pages/login/widgets/input_field.dart';
 import 'package:travel/src/pages/login/widgets/text_logo.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart' show SizeExtension;
@@ -117,5 +118,6 @@ class PartialLoginCover extends StatelessWidget {
               : res.message);
       return;
     }
+    Navigator.pushNamedAndRemoveUntil(context, CitiesPage.id, (route) => false);
   }
 }
